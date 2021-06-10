@@ -137,37 +137,65 @@ header {
   height: 640px;
 }
 
-footer {
-  background: black;
-  height: 144px;
-  width: 100%;
+.footer{
+  background: #000000;
 }
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 144px;
+.footer_wrapper{
+width: 1441px;
+height: 141px;
+margin: 0 auto;
 }
-.sosmed {
-  height: 100%;
-  width: 100%;
-  cursor: pointer;
+.footer-left, .footer-mid, .footer-right{
+  float: left;
 }
+.sosmed{
+  margin: 38px 30px 47px 121px;
 
-.footer__links {
-  list-style: none;
 }
-.footer__links li {
+.logo-footer{
+  margin-top: 24px;
+  margin-bottom: 46px;
+}
+.footer-mid p{
   display: inline-block;
-  padding: 0px 20px;
-}
-
-.footer__links li a {
-  transition: all 0.3s ease 0s;
+  float: left;
   color: white;
+  margin-right: 98px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
 }
-.footer__links li a:hover {
-  color: #08a9;
+.footer-mid a{
+text-decoration: none;
+font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+color: white;
+}
+.footer-mid{
+  margin-left: 166px;
+  margin-top: 50px;
+  margin-bottom: 68px;
+}
+.footer-right img, .footer-right p{
+  float: left;
+}
+.footer-right p{
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 45px;
+}
+.footer-right{
+  margin-left: 100px;
 }
 
 /* css testi */
