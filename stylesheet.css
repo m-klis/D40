@@ -65,11 +65,20 @@ header {
   background-size: cover;
   height: 850px;
 }
+
+/* punya aboutus */
 .about-us {
   background-image: url(./img/about-us.png);
   background-size: cover;
   height: 458px;
 }
+.about-container {
+  background: rgba(100, 58, 34, 0.76);
+  width: 1440px;
+  height: 458px;
+  margin: 0 auto;
+}
+/* end aboutus */
 
 /* punya visimisi */
 .our-vision {
