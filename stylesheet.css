@@ -137,6 +137,83 @@ header {
   height: 640px;
 }
 
+/* punya sejarah */
+.container_history{
+  background-image: url(./img/1871-b110ae3636-kreavi.png);
+background-size: cover;
+  
+}
+.background_history{
+  background: rgba(100, 58, 34, 0.76);
+  width: 1440px;
+  height: 682px;
+  margin: 0 auto;
+}
+.judul_history h2{
+font-family: 'Poppins', sans-serif;
+height: 50px;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 10px;
+text-align: center;
+}
+.judul_history{
+  padding-top: 100px;
+  color: white;
+}
+.judul_history p{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 10px;
+}
+.content_history{
+  display: flex;
+
+}
+.content_1, .content_2, .content_3 {
+background: rgba(255, 255, 255, 0.89);
+width: 327px;
+height: 380px;
+border-radius: 10px;
+margin-right: 40px;
+margin-top: 51px;
+}
+.content_1{
+  margin-left: 190px;
+}
+.image_history{
+  margin-left: 30px;
+  margin-right: auto;
+  margin-top: -35px;
+}
+.content_history p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  display: inline-block;
+}
+.content_1 p,.content_2 p {
+  margin-left: 48px;
+  margin-right: 49px;
+  margin-top: 42px;
+}
+.content_3 p {
+  margin-left: 44px;
+  margin-right: 49px;
+  margin-top: 37px;
+}
+/* akhir sejarah */
+
+
+/* punya footer */
 .footer{
   background: #000000;
 }
@@ -197,6 +274,7 @@ color: white;
 .footer-right{
   margin-left: 100px;
 }
+/* akhir footer */
 
 /* css testi */
 .wrapper {
